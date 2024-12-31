@@ -1,0 +1,112 @@
+nav{
+    background-color: aquamarine;
+    padding: 20px;
+    text-align: center;
+
+}
+body{
+    background: #000;
+}
+.container{
+    background-color: black;
+    width: 70%;
+    min-height: 100vh;
+    margin:auto;
+    box-sizing: border-box;
+    padding: 4vmax 8vmax;
+>h1{
+    margin: 10px;
+    text-align: center;
+    font-size: 2.5rem;
+    color: white;
+}
+}
+.container>form{
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+
+input, textarea, button{
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 2px;
+    font-size: 1rem;
+}
+button{
+    border: none;
+    color: black;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+button:hover{
+    background-color:gray;
+    color: white;
+}
+
+
+
+.task{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    
+}
+.task>div{
+    width: 90%;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *{
+    margin: 0%;
+    padding: 0%;
+    
+}
+nav{
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    padding: 2rem;
+    background: #000;
+}
+
+nav a{
+    font: 600 1.5rem cursive ;
+    color: rgb(37, 105, 208);
+    text-decoration: none;
+    margin: 0 1rem ;
+} */
